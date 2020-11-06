@@ -187,8 +187,8 @@ print(sprintf("my first name is %s. My last name is %s.", first, last))
 # As in Python, we can specify how many decimal places we
 # want to display for numbers.
 
-pi
-
-print(sprintf("pi to 2 decimal places is %.2f", pi))
+  pi
+  
+  print(sprintf("pi to 2 decimal places is %.2f", pi))
 
 print(sprintf("pi to 4 decimal places is %.4f", pi))
