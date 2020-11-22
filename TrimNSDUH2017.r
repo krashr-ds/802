@@ -1,0 +1,21 @@
+library(tidyverse)
+
+NSDUH_2017_Edit <- NSDUH_2017_Tab %>% select(FILEDATE, CIGEVER, CIGTRY, CIGREC, CIG30AV, CIGAGE, ALCEVER, ALCTRY, ALCREC, ALDAYPYR, ALCDAYS, ALCUS30D, 
+                                                  MJEVER, MJAGE, MJREC, MJYRTOT, MJDAY30A, COCEVER, COCAGE, COCREC, COCYRTOT, COCUS30A, HEREVER, HERAGE, HERREC, 
+                                                  HERYRTOT, HER30USE, HYDCPDAPYU, MTDNPDAPYU, MORPPDAPYU, OXCNANYYR, PNRNMLIF, PNRNMAGE, PNRNMREC, 
+                                                  TRBENZAPYU, TRQNMAGE, AMMEPDPYMU, METHPDAPYU, STMNMLIF, STMNMAGE, IRMETHAMYFQ, METHAMAGE, METHAMYFQ, 
+                                                  METHDYPMO, SEDNMLIF, SEDNMAGE, SEDNMREC, CIGAFU, DCIGAFU, ALCAFU, MJAFU, MRJYDAYS, 
+                                                  COCYDAYS, METHNDAYYR, ALCYDAYS, HALLNDAYPM, CIGMDAYS, DIFGETMRJ, DIFGETCOC, 
+                                                  DIFGETCRK, DIFGETHER, APPDRGMON, RSKYFQDGR, RSKYFQTES, RKFQPBLT, 
+                                                  RKFQDBLT, DIFOBTMRJ, DIFOBTCOC, DIFOBTCRK, DIFOBTHER, APPDRGMON2, 
+                                                  DEPNDALC, DEPNDPYPNR, DEPNDCOC, DEPNDHER, DEPNDMRJ, DEPNDPYILL, DEPNDPYIEM, 
+                                                  DPPYILLALC, DPPYILANAL, BOOKED, NOBOOKY2, PROBATON, DRVINALCO2, DRVINDRG, 
+                                                  DRVINALDRG, TXEVRRCVD, TXLTYDAYS2, PREGNANT, NMERTMT2, INHOSPYR, WRKDPSTYR, WRKSELFEM, 
+                                                  AUOPTYR, AURXYR, AMHINP2, RCVMHOSPTX, RCVMHNSPTX, RCVSPTXNMH, RCVMHASPTX, 
+                                                  SNYSELL, SNYSTOLE, SNYATTAK, SNRLGSVC, SNRLGIMP, SNRLDCSN, YEATNDYR, YEHMSLYR, YESCHFLT, YETCGJOB, YELSTGRD, 
+                                                  YEPCHKHW, YEPCHORE, YEPLMTTV, YEPLMTSN, YEPGDJOB, YEPPROUD, YEYHGUN, ANYEDUC3, YHLTMDE, K6SCMON, 
+                                                  SPDYR, SMISUDPY, ANYSMH2, SMHSUI2, IMOTHER, IFATHER, NRCH17_2, GOVTPROG, INCOME, AGE2, 
+                                                  NOMARR2, SERVICE, HEALTH, IRSEX, CATAGE, SEXAGE, NEWRACE2, EDUHIGHCAT, PDEN10, COUTYP4)
+
+write.csv(NSDUH_2017_Edit, '/home/kylier/Documents/UNH/803/NSDUH_2017_Edit.csv')
+
