@@ -11,6 +11,7 @@ def m2km(miles):
 m = float(input("Enter the number of miles to convert "))
 print(m2km(m))
 
+
 def calcBMI(height, weight):
     try:
         return round(703 * (float(weight) / (float(height)**2)), 1)
